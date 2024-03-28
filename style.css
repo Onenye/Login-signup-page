@@ -11,7 +11,7 @@
     
 }
 
-h1, p, button{
+h1, button{
     text-align: center;
     margin: 10px;
 }
@@ -43,4 +43,35 @@ button{
     color: #fff;
 }
 
+.btn-submit, .btn-cancel{
+    width: 20%;
+    margin: 5px;
+}
+
+.container2{
+    width: 50%;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cancel{
+    background-color: rgb(231, 15, 15);
+}
+
+.btn-cancel:hover{
+    background-color: rgb(95, 5, 5);
+    color: rgb(243, 235, 235);
+    transition: 0.2s;
+}
+
+.header-txt{
+    text-align: center;
+    color: mediumseagreen;
+}
+
+.btn-submit:hover{
+    background-color: rgb(19, 70, 42);
+    transition: 0.2s;
+}
 
